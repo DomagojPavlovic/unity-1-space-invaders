@@ -53,9 +53,7 @@ public class PlayerAnimation : MonoBehaviour
         }
         
     }
-    /**
-     * 
-     */
+
     private void Reset()
     {
         _invincible = false;

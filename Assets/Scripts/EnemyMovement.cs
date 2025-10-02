@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public static float Speed = 1f;
-    //public static float Speed = 0f;
     private readonly float bounds = GameManager.BOUNDS;
     /**
      * false = left, true = right

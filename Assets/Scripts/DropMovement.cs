@@ -6,7 +6,6 @@ public class DropMovement : MonoBehaviour
 {
     private readonly float speed = 1f;
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(0f, -speed * Time.deltaTime, 0f);
